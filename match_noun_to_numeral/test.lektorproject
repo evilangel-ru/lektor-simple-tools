@@ -1,0 +1,5 @@
+[project]
+name = test
+
+[packages]
+lektor-jinja-content = 0.4.3
