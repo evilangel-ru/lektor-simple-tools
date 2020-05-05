@@ -2,7 +2,7 @@
 Set of simple but handy code snippets to use with [Lektor](https://www.getlektor.com/)
 
 ## Matching a noun to a numeral
-See  [match_noun_to_numeral](/match_noun_to_numeral). This is usefull mostly for Russian language, so on I describe it in Russian below.
+See  [match_noun_to_numeral](/match_noun_to_numeral). This is useful mostly for the Russian language, so I describe it in Russian below.
 
 Иногда вам надо написать что-то вроде "За прошлый год наш оборот составил 110 222 рубля." Здесь показан пример согласования единицы измерения (рубль) с числом. То есть в зависимости от числа будет подставлено согласованное существительное. 110 221 рубль, 110 222 рубля, 110 225 рублей. 
 
