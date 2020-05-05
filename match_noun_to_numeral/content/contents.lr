@@ -1,0 +1,11 @@
+title: Согласование существительного с числом 
+---
+count: {{ bag('tst_bag.test.count') }}  
+---
+body: 
+
+{% set record_tuple = ('записей', 'запись','записи','записи', 'записи', 'записей', 'записей', 'записей', 'записей', 'записей' ) %}
+{% set var1 = this.count | int %}
+{% set var2 = var1 % 10 %}
+
+У вас {{ this.count }} {{ record_tuple[var2] }}
